@@ -1,7 +1,6 @@
 'use strict';
 
 const express = require('express');
-const errorMW = require('./error');
 const app = express();
 
 const PORT = process.env.PORT || 8080;
